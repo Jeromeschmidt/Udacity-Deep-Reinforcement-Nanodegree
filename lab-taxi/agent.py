@@ -47,5 +47,5 @@ class Agent:
         Q_next_len = len(self.Q[next_state])
         Q_next = max(self.Q[next_state]) if next_state is not None else 0
         Q_next = Q_next/Q_next_len
-        self.Q[state][action] = old_Q + (1*((reward + (1*Q_next)) - old_Q))
+        self.Q[state][action] = old_Q + (0.9*((reward + (1*Q_next)) - old_Q))
         return self.Q[state][action]
