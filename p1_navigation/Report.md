@@ -45,4 +45,7 @@ Reinforcement learning training parameters:
 
 As shown above, the agent solved the environment in 498 episodes.
 
-### Instructions
+### Possible Future Additions
+- Tune hyperparameters
+- Add dueling DQNs
+- Improve replay buffer
