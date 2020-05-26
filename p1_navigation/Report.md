@@ -39,7 +39,7 @@ Reinforcement learning training parameters:
 
 ### Results
 
-![Graph of results](images/navigation_results_graphs.png)
+![Graph of results](images/navigation_results_graph.png)
 
 ![Navigation Results](images/navigation_results.png)
 
