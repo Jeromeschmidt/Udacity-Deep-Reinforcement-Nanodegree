@@ -4,7 +4,7 @@
 
 # Project 1: Navigation
 
-### Introduction
+### Introduction:
 
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
 
@@ -20,10 +20,10 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
-### Implementation
+### Implementation:
 
 Neural Network Architecture:
--  2 fully connected 'RELU' activation layers
+-  Convolutional neural network with 2 fully connected 'RELU' activation layers
 
 Reinforcement learning training parameters:
 - BUFFER_SIZE = int(1e5)
@@ -37,7 +37,7 @@ Reinforcement learning training parameters:
 - eps_end = 0.01
 - eps_decay = 0.925
 
-### Results
+### Results:
 
 ![Graph of results](images/navigation_results_graph.png)
 
@@ -45,7 +45,7 @@ Reinforcement learning training parameters:
 
 As shown above, the agent solved the environment in 498 episodes.
 
-### Possible Future Additions
+### Possible Future Additions:
 - Tune hyperparameters
 - Add dueling DQNs
 - Improve replay buffer
