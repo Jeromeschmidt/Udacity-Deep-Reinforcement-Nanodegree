@@ -37,7 +37,7 @@ WEIGHT_DECAY = 0
 
 The agent was able to solve the environment fairly quickly in only 979 episodes. The scores at each episode are graphed below
 
-![results][images/result.jpg]
+[results](images/result.jpg)
 
 ### Possible Future Additions:
 - Tune Hyperparameters
