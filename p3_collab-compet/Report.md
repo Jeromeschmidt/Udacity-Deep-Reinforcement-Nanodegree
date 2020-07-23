@@ -25,6 +25,7 @@ Neural Network Architecture:
 -  DDPG reinforcement model with actors and critics built with convolutional neural networks.
 
 Reinforcement learning training parameters:
+
 BUFFER_SIZE = int(1e6)
 BATCH_SIZE = 1024        
 GAMMA = 0.99            
