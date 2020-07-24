@@ -22,7 +22,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 ### Implementation:
 
 Neural Network Architecture:
--  DDPG reinforcement model with actors and critics built with convolutional neural networks.
+-  DDPG reinforcement model with actors and critics built with feed forward  neural networks.
 
 Reinforcement learning training parameters:
 
